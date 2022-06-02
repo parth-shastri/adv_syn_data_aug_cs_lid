@@ -2,7 +2,7 @@
 > The Hindi-English dataset is extracted from spoken tutorials. These tutorials cover a range of technical topics and the code-switching predominantly arises from the technical content of the lectures. The segments file in the baseline recipe provides sentence time-stamps. These time-stamps were used to derive segments from the audio file to be aligned with the transcripts given in the text file. Hindi-English train and test datasets contain 89.86 hours and 5.18 hours, respectively. All the audio files in both datasets are sampled at 16 kHz, 16 bits encoding. The vocabulary size for Hindi-English is 17877.
 
 Dataset Link: ![hindi-english codeswitched data](https://www.openslr.org/104/)
-Link to the trained models and the classification dataset: ![Drive link](https://coepac-my.sharepoint.com/:f:/g/personal/shastripp18_extc_coep_ac_in/Ehd5lUFVASdEudEdc6_j0EkBPo2gekMylDyqbZdcL7eieA?e=naitFF)
+Link to the trained models and the classification dataset: ![Drive link](https://coepac-my.sharepoint.com/:f:/g/personal/shastripp18_extc_coep_ac_in/Ehd5lUFVASdEudEdc6_j0EkBDiwzKa56NAuPlFuyr2pOJQ?e=31Odlz)
 
 # Methodology
 ## Using Generative Adversarial Networks for data augmentation
