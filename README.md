@@ -34,16 +34,16 @@ By doing the above on the extraction of F0 contour too, we get the shape of F0 f
 - Normalization in between [-1, 1].
 
 ## GAN Architecture
-![img](/imgs/gen_arch.png)
-![img2](/imgs/Disc_arch.png)
+![img](/imgs/figure2a.png)
+![img2](/imgs/figure2b.png)
 #### GAN results
-![img3](/imgs/img_1.png)
+![img3](/imgs/Comparison figure.png)
 #### Frechet Inception Distance
 FID is designed to capture the variability as well as the fidelity of the generated data in comparison with the input data.
 
-![img](/imgs/fid.png)
+![img](/imgs/figure3.png)
 ## Classifier
-![img4](/imgs/classifier_arch.png)
+![img4](/imgs/figure5.png)
 #### Dataset for LID
 We used the approach of a 3-class classification for the LID model.
 There is no defined dataset for such a task so we combined the utterances from existing datasets.
@@ -63,8 +63,8 @@ We performed 5-fold cross validation to select the best model.
 
 #### Results
 We observed an accuracy bump of about 1% on the models which used some sort of data augmentation as compared to the baseline.
-![table img](/imgs/comp_table.png)
-![f1 comparision](/imgs/UAR_comparison.png)
+![table img](/imgs/Accuracy table.png)
+![uar comparision](/imgs/figure6.png)
 
 # Conclusion
 We concluded that the GANs a powerful representation learning tool learns the representation of the Hindi_english Speech data successfully.
