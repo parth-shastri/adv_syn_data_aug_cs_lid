@@ -62,7 +62,7 @@ We used 3 methods to evaluate our scheme -
 We performed 5-fold cross validation to select the best model.
 
 #### Results
-We observed an accuracy bump of about 1% on the models which used some sort of data augmentation as compared to the baseline.
+We observed an accuracy bump of about 4.7% on the models which used proposed data augmentation as compared to the baseline.
 ![table img](/imgs/Accuracy table.png)
 ![uar comparision](/imgs/figure6.png)
 
